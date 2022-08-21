@@ -159,6 +159,7 @@ section .quiz-slide .quiz-button .submit-button:active {
 }
 
 section .quiz-slide .quiz-result {
+    overflow: auto;
     width: 90%;
     height: 80%;
     display: flex;
@@ -206,9 +207,11 @@ section .quiz-slide .quiz-again .again-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 section .quiz-slide .quiz-again .again-button:hover {
+    
     background-color: green;
 }
 
@@ -228,7 +231,7 @@ footer {
 
 footer .footer-left,
 footer .footer-right {
-    width: 30%;
+    width: 40%;
 }
 
 footer .footer-left {
@@ -238,7 +241,6 @@ footer .footer-left {
 }
 
 footer img {
-    /* filter: brightness(0) invert(1); */
     position: absolute;
     width: 7.5rem;
 }
